@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/encrip.png" alt="logoencriptador" >
+    </header>
+    <main>
+        <section>  
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()"> ENCRIPTAR </button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()"> DESENCRIPTAR </button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10" placeholder="Mensaje encriptado"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()"> Copiar </button>
+            </div>
+        </section>
+    </main>
+<script src="appencrip.js"></script>
+</body>
+    
+</html>

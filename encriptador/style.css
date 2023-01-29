@@ -1,0 +1,68 @@
+*{
+    
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+body{
+    background: url(imagenes/matrix.png);
+}
+.logo{
+    width: 6%;
+    padding-top: 10px;
+    margin-left: 10px;
+
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.boton-encriptar, .boton-desencriptar{
+    background: whitesmoke;
+    border: 1px solid;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+.copiar{
+    background: whitesmoke;
+    margin-left: 150px;
+    border: 1px solid;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    background: none;
+    color: white;
+    margin-top: 10px;
+    text-transform: lowercase;
+}
+::placeholder{color: rgb(252, 249, 249);}
+.text-area:focus{
+    outline: none;
+} 
+.mensaje{
+    background: none;
+    border: none;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.mensaje:focus{
+    outline: none;
+}
+.informacion{
+    color: #c6cbcf;
+    font-size: 18px;
+}
